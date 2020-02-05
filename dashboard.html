@@ -1,108 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
     <link rel="manifest" href="public/manifest.json">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/dahsboard.css">
     <title>EnergyConnectSV</title>
 </head>
+
 <body>
     <header>
         <h1 hidden>Welcome to Energy Connect SV!</h1>
         <nav>
             <a href="#">Hola, Julio</a>
-            <a href="./profile.html">                    
+            <a href="./profile.html">
                 <img src="./src/assets/Menu/user.png" alt="EnergyConnectSV">
             </a>
         </nav>
     </header>
     <main>
         <div id="tabs">
-        <div>
-            <span id="services-tabber" active>Servicios</span>
-            <span id="billing-tabber">Facturaciones</span>
-        </div>
-      <div id="services">
-            <section>
-                <h4>Renovacion</h4>
-                <div>
-                    <div>
-                        <span>19/15/20</span>
-                        <div class="meter-base"></div>
-                        <div class="meter-data"></div>
+            <div>
+                <span id="services-tabber" active>Servicios</span>
+                <span id="billing-tabber">Facturaciones</span>
+            </div>
+            <div id="services">
+                <div class="container">
+                    <h5 class="titulo pl-3 pt-4">Renovacion</h5>
+                    <div class=" contenedor  p-4 m-2">
+                        <p class="fecha text-center">19/06/20</p>
+                        <div class="container">
+                            <div class="progress grey-progres-bar  ">
+                                <div class="progress-bar black-progres-bar " role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="20" aria-valuemax="100" style="width:40%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="titulo pl-3 pt-4">Pago</h5>
+                    <div class=" contenedor  p-3 m-2">
+                        <p class="pago text-center">15 USD</p>
+                        <div class="text-center">
+                            <a href="#" class="pay-button ">PAGAR</a>
+                        </div>
+                    </div>
+                    <h5 class="titulo pl-3 pt-4">Deudas</h5>
+                    <div class=" contenedor  p-4 m-2">
+                        <p class="fecha text-center">¡felicitaciones Julio!</p>
+                        <div class="container ">
+                            <p class="estadoDeuda text-center ml-5 mr-5">No posees de ninguna deuda <br> hasta la fecha
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <h4>Pago</h4>
-                <div>
-                    <div>
-                        <span>USD$15</span>
-                        <div><a href="./payment.html">Pagar</a></div>
+
+            </div>
+            <div class="billing" id="billing" hidden>
+                <div class="container">
+                    <div class=" contenedor p-3 m-2">
+                        <div class="container text-center">
+                            <p class="titulo ">Pago de servicio eléctrico </p>
+                            <p class="cantidadFactura mt-5 mb-5 "> 50 USD </p>
+                        </div>
+
+                        <div class="container">
+                            <p class="datosFactura mt-1">Fecha de emisión: 15/05/2020 </p>
+                            <p class="datosFactura mt-2">Remitente: Julio Torres</p>
+                            <p class="datosFactura mt-2">N° Entidad: 9082745</p>
+                            <p class="datosFactura mt-2">País: Brasil</p>
+                            <p class="datosFactura mt-2">Empresa: Energy connect</p>
+
+                        </div>
+
+                        <div class="container  mt-4 mb-3 text-center">
+                            <p class="reclamoFactura pl-5 pr-5 mb-3 just">Cualquierconsulta o reclamos, puedes enciar un
+                                mensaje a nuestro buzón</p>
+                            <a href="#" class="print-button ">IMPRIMIR</a>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <h4>Deudas</h4>
-                <div>
-                    <div>
-                        <h4>Felicitaciones Julio</h4>
-                        <p>
-                            No posees ninguna deuda hasta la fecha
-                        </p>
+            </div>
+        </div>
+        <div id="payment" hidden>
+            <div class="container text-center">
+                <p class="titulo ">Pago a realizar </p>
+                <p class="cantidadFactura mt-4 mb-3 "> 50 USD </p>
+            </div>
+
+
+            <div class="container ">
+                <form class="p-4">
+                    <label class="labelForm mt-1"> Nombre del usuario </label>
+                    <input type="text" id="name" name="" class="inputForm">
+                    <label class="labelForm mt-3"> Numero de tarjeta </label>
+                    <input type="text" id="card" name="" class="inputForm">
+
+                    <div class="row mt-2">
+                        <div class="col-6">
+                            <label class="labelForm "> Fecha de expiración </label>
+                            <input type="date" id="date" name="" class="inputForm">
+                        </div>
+                        <div class="col-6">
+                            <label class="labelForm "> Código de seguridad </label>
+                            <input type="number" id="code" name="" class="inputForm">
+                        </div>
                     </div>
-                </div>
-            </section>
+                    <input type="submit" class="button-realizar-pago mt-4" value="REALIZAR PAGO">
+                </form>
+
+            </div>
         </div>
-        <div class="billing" id="billing" hidden>
-            <h3>Pago de servicio electrico</h3>
-            <h2>USD$50</h2>
-            <p>
-                Fecha de emision: 15/05/2020
-            </p>
-            <p>
-                Remitante: Julio Garcia
-            </p>
-            <p>
-                Pais: Brasil
-            </p>
-            <p>
-                Empresa: Binmu
-            </p>
-            <small>
-                Cualquier consulta o reclamos puedes enviar un mensaje a nuestro buzon
-            </small>
-            <button>IMPRIMIR</button>
-        </div>
-    </div>
-    <div id="payment" hidden>
-        <h4>Pago a realizar</h4>
-        <h2>USD$50</h2>
-        <form>
-            <fieldset>
-                <label for="name">Nombre del usuario</label>
-                <input type="text" autocomplete="name">
-            </fieldset>
-            <fieldset>
-                <label for="name">Numero de tarjeta</label>
-                <input type="text">
-            </fieldset>
-            <fieldset>
-                <label for="name">Fecha de expiracion</label>
-                <input type="date">
-            </fieldset>
-            <fieldset>
-                <label for="name">Codigo de seguridad</label>
-                <input type="password">
-            </fieldset>
-            <input type="submit" value="REALIZAR PAGO">
-        </form>
-    </div>
     </main>
     <footer>
         <div><img src="./src/assets/Menu/home.png" alt="Home"></div>
@@ -112,4 +128,5 @@
     </footer>
     <script src="src/js/dashboard.js"></script>
 </body>
+
 </html>

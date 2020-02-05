@@ -9,11 +9,10 @@ toBilling.addEventListener('click', e => {
     if (isActive){
         throw 'Already on that tab'
     }
-    toBilling.removeAttribute('active');
-    toServices.setAttribute('active', '');
-    billingTab.setAttribute('hidden', '');
-    servicesTab.removeAttribute('hidden');
-    console.log(isActive?true:false,'Billing', toBilling)
+    toServices.removeAttribute('active');
+    toBilling.setAttribute('active', '');
+    servicesTab.setAttribute('hidden', '');
+    billingTab.removeAttribute('hidden');
 });
 toServices.addEventListener('click', e => {
     e.preventDefault();
@@ -21,9 +20,9 @@ toServices.addEventListener('click', e => {
     if (isActive){
         throw 'Already on that tab'
     }
-    toServices.removeAttribute('active');
-    toBilling.setAttribute('active', '');
-    servicesTab.setAttribute('hidden', '');
-    billingTab.removeAttribute('hidden');
+    toBilling.removeAttribute('active');
+    toServices.setAttribute('active', '');
+    billingTab.setAttribute('hidden', '');
+    servicesTab.removeAttribute('hidden');
     console.log(isActive?true:false,'Services', toServices)
 })
