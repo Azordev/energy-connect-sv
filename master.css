@@ -6,7 +6,6 @@
 
 .fecha {
   font-weight:900;
-  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   margin: 0;
 }
@@ -30,19 +29,19 @@
 
 .progress {
   border-radius: 15px;
-  height: 12px
+  height: 12px;
 }
 
 .pay-button {
   background-color: #0090df;
-  font-weight:400;
+  font-weight: 400;
   color: white;
-  border-radius:28px;
-  cursor:pointer;
-  font-size:10px;
-  padding:1px 28px;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 1px 28px;
   text-decoration:none;
-  text-shadow:0px 1px 0px #0090df;
+  text-shadow: 0 1px 0 #0090df;
 }
 
 .pago {
@@ -54,7 +53,6 @@
 .estadoDeuda {
   color: #a6a6a6;
   font-weight:900;
-  font-family: 'Roboto', sans-serif;
   font-size: 9px;
   margin: 0;
 }
@@ -70,11 +68,10 @@
   font-weight: 500;
   font-size: 10px;
   color:#a8a8a8;
-  margin:0
+  margin:0;
 }
 
 .print-button {
-  font-family: 'Roboto', sans-serif;
   background-color: #1fa1d2;
   font-weight: 500;
   color: white;
@@ -83,21 +80,21 @@
   font-size:10px;
   padding:2px 20px;
   text-decoration:none;
-  text-shadow:0px 1px 0px #0090df;
+  text-shadow:0 1px 0 #0090df;
 }
 
 .reclamoFactura {
   font-weight: bold;
   font-size: 8px;
   color:#868686;
-  margin:0
+  margin: 0;
 }
 
 .labelForm {
   font-weight: bold;
   font-size: 10px;
   color:#838383;
-  margin:0
+  margin: 0;
 }
 
 .inputForm {
@@ -108,13 +105,11 @@
 
 .button-realizar-pago {
   background: #419AFF;
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: white;
   border-radius:8px;
   cursor:pointer;
   font-size:10px;
-  padding:5px ;
+  padding: 5px ;
   width: 100%;
-
 }
