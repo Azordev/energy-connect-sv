@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 85px auto 60px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+header > nav {
+  margin-left: 20px;
+  width: 100hw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(245, 245, 245);
+  grid-area: footer;
+  width: 100hw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

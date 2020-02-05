@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="manifest" href="public/manifest.json">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/dahsboard.css">
+    <title>EnergyConnectSV</title>
+</head>
+<body>
+    <header>
+        <h1 hidden>Welcome to Energy Connect SV!</h1>
+        <nav>
+            <a href="#">Hola, Julio</a>
+            <a href="./profile.html">                    
+                <img src="./src/assets/Menu/user.png" alt="EnergyConnectSV">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div id="tabs">
+        <div>
+            <span id="services-tabber" active>Servicios</span>
+            <span id="billing-tabber">Facturaciones</span>
+        </div>
+      <div id="services">
+            <section>
+                <h4>Renovacion</h4>
+                <div>
+                    <div>
+                        <span>19/15/20</span>
+                        <div class="meter-base"></div>
+                        <div class="meter-data"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h4>Pago</h4>
+                <div>
+                    <div>
+                        <span>USD$15</span>
+                        <div><a href="./payment.html">Pagar</a></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h4>Deudas</h4>
+                <div>
+                    <div>
+                        <h4>Felicitaciones Julio</h4>
+                        <p>
+                            No posees ninguna deuda hasta la fecha
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="billing" id="billing" hidden>
+            <h3>Pago de servicio electrico</h3>
+            <h2>USD$50</h2>
+            <p>
+                Fecha de emision: 15/05/2020
+            </p>
+            <p>
+                Remitante: Julio Garcia
+            </p>
+            <p>
+                Pais: Brasil
+            </p>
+            <p>
+                Empresa: Binmu
+            </p>
+            <small>
+                Cualquier consulta o reclamos puedes enviar un mensaje a nuestro buzon
+            </small>
+            <button>IMPRIMIR</button>
+        </div>
+    </div>
+    <div id="payment" hidden>
+        <h4>Pago a realizar</h4>
+        <h2>USD$50</h2>
+        <form>
+            <fieldset>
+                <label for="name">Nombre del usuario</label>
+                <input type="text" autocomplete="name">
+            </fieldset>
+            <fieldset>
+                <label for="name">Numero de tarjeta</label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <label for="name">Fecha de expiracion</label>
+                <input type="date">
+            </fieldset>
+            <fieldset>
+                <label for="name">Codigo de seguridad</label>
+                <input type="password">
+            </fieldset>
+            <input type="submit" value="REALIZAR PAGO">
+        </form>
+    </div>
+    </main>
+    <footer>
+        <div><img src="./src/assets/Menu/home.png" alt="Home"></div>
+        <div><img src="./src/assets/Menu/payment.png" alt="Payment"></div>
+        <div><img src="./src/assets/Menu/help.png" alt="help"></div>
+        <div><img src="./src/assets/Menu/settings.png" alt="settings"></div>
+    </footer>
+    <script src="src/js/dashboard.js"></script>
+</body>
+</html>
