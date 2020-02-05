@@ -68,7 +68,7 @@
 
 .datosFactura {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   color:#a8a8a8;
   margin:0
 }
@@ -80,7 +80,7 @@
   color: white;
   border-radius:28px;
   cursor:pointer;
-  font-size:12px;
+  font-size:10px;
   padding:2px 20px;
   text-decoration:none;
   text-shadow:0px 1px 0px #0090df;
@@ -88,7 +88,7 @@
 
 .reclamoFactura {
   font-weight: bold;
-  font-size: 11px;
+  font-size: 8px;
   color:#868686;
   margin:0
 }
