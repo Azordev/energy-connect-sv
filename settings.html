@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="manifest" href="public/manifest.json">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/components.css">
+    <link rel="stylesheet" href="src/css/settings.css">
+    <title>EnergyConnectSV</title>
+</head>
+
+<body>
+    <header>
+        <h1 hidden>Welcome to Energy Connect SV!</h1>
+        <nav>
+            <span>Hola, Julio</span>
+            <a href="./profile.html">
+                <img src="./src/assets/Menu/user.png" alt="EnergyConnectSV">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="connect">
+            <span>
+                Servicio Electrico
+            </span>
+            <img src="./src/assets/Logo/isotipo.png" alt="energy connect">
+            <button class="button-primary">Cancelar</button>
+        </div>
+        <form>
+            <fieldset>
+                <label>
+                    <span>Notificaciones</span>
+                    <div class="switch">
+                        <input type="checkbox" name="notifications" id="notifications-checkbox" checked>
+                        <span class="slider round"></span>
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Email
+                    <div class="switch">
+                        <input type="checkbox" name="emails" id="emails-checkbox" checked>
+                        <span class="slider round"></span>
+                    </div>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Pago Automatico
+                    <div class="switch">
+                        <input type="checkbox" name="auto-payment" id="auto-payment-checkbox" checked>
+                        <span class="slider round"></span>
+                    </div>
+                </label>
+                Idioma
+            </fieldset>
+
+            <div class="radio-toolbar">
+                <input type="radio" id="radioBanana" name="radioFruit" value="banana" checked>
+                <label for="radioBanana"><img src="./src/assets/icons/es.png" alt="es" width="100px"></label>
+                <input type="radio" id="radioApple" name="radioFruit" value="apple">
+                <label for="radioApple"><img src="./src/assets/icons/en.png" alt="en" width="100px"></label>
+            </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <a href="./services.html">
+                <img src="./src/assets/Menu/home.png" id="home-footer-button" alt="Home">
+            </a>
+        </div>
+        <div>
+            <a href="./billing.html">
+                <img src="./src/assets/Menu/payment.png" id="billing-footer-button" alt="Billing">
+            </a>
+        </div>
+        <div>
+            <a href="./help.html">
+                <img src="./src/assets/Menu/help.png" id="help-footer-button" alt="help">
+            </a>
+        </div>
+        <div>
+            <img src="./src/assets/Menu/settings.png" id="config-footer-button" alt="settings">
+        </div>
+    </footer>
+</body>
+
+</html>

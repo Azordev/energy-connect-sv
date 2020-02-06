@@ -1,0 +1,53 @@
+.payment {
+  margin: 20px;
+  padding: 10px;
+}
+
+.titulo {
+  color: #656464;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.cantidadFactura {
+  text-align: center;
+  font-weight: 900;
+  font-size: 34px;
+  margin: 20px;
+  color: #707070;
+}
+
+.labelForm {
+  font-weight: bold;
+  font-size: 10px;
+  color: #838383;
+  margin: 0;
+}
+
+.inputForm {
+  border: 2px solid #838383;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.button-realizar-pago {
+  background: #419aff;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.row{
+  display: flex;
+}
+
+.col-6 {
+  flex: 50%;
+}
