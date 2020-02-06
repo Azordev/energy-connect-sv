@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/dahsboard.css">
+    <link rel="stylesheet" href="src/css/billing.css">
     <title>EnergyConnectSV</title>
 </head>
 
@@ -20,7 +20,7 @@
     <header>
         <h1 hidden>Welcome to Energy Connect SV!</h1>
         <nav>
-            <a href="#">Hola, Julio</a>
+            <span>Hola, Julio</span>
             <a href="./profile.html">
                 <img src="./src/assets/Menu/user.png" alt="EnergyConnectSV">
             </a>
@@ -28,43 +28,11 @@
     </header>
     <main>
         <div id="home">
-            <div id="tabs">
-                <span id="services-tabber" active>Servicios</span>
-                <span id="billing-tabber">Facturaciones</span>
+            <div class="tabs" >
+                <span id="services-tabber">Servicios</span>
+                <span id="billing-tabber" active>Facturaciones</span>
             </div>
-            <div id="services">
-                <div class="container">
-                    <h5 class="titulo pl-3 pt-4">Renovacion</h5>
-                    <div class=" contenedor  p-4 m-2">
-                        <p class="fecha text-center">19/06/20</p>
-                        <div class="container">
-                            <div class="progress grey-progres-bar  ">
-                                <div class="progress-bar black-progres-bar " role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="20" aria-valuemax="100" style="width:40%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h5 class="titulo pl-3 pt-4">Pago</h5>
-                    <div class=" contenedor  p-3 m-2">
-                        <p class="pago text-center">15 USD</p>
-                        <div class="text-center">
-                            <a href="./payment.html" class="pay-button ">PAGAR</a>
-                        </div>
-                    </div>
-                    <h5 class="titulo pl-3 pt-4">Deudas</h5>
-                    <div class=" contenedor  p-4 m-2">
-                        <p class="fecha text-center">¡felicitaciones Julio!</p>
-                        <div class="container ">
-                            <p class="estadoDeuda text-center ml-5 mr-5">No posees de ninguna deuda <br> hasta la fecha
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="billing" id="billing" hidden>
+            <div class="billing" id="billing">
                 <div class="container">
                     <div class=" contenedor p-3 m-2">
                         <div class="container text-center">
@@ -92,7 +60,11 @@
         </div>
     </main>
     <footer>
-        <div><img src="./src/assets/Menu/home.png" id="home-footer-button" alt="Home"></div>
+        <div>
+            <a href="./services.html">
+                <img src="./src/assets/Menu/home.png" id="home-footer-button" alt="Home">
+            </a>
+        </div>
         <div><img src="./src/assets/Menu/payment.png" id="billing-footer-button" alt="Billing"></div>
         <div>
             <a href="./help.html">

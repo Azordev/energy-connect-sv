@@ -20,6 +20,11 @@ header > nav {
   align-items: center;
 }
 
+nav > span {
+  color: #419aff;
+  font-weight: 700;
+}
+
 footer {
   background-color: rgb(245, 245, 245);
   grid-area: footer;
@@ -27,4 +32,29 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  margin: 20px 2px;
+  -webkit-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  -moz-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+}
+
+.tabs > span[active]{
+  border-bottom: 2px blue solid;
+  line-height: 1;
+  /* text-decoration: underline blue solid; */
+}
+
+.contenedor {
+  border: 1px solid;
+  border-color: #beb8b8;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  -moz-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
 }

@@ -1,5 +1,5 @@
 const submitButton = document.getElementById('submit-button')
 submitButton.addEventListener('click', event => {
   event.preventDefault()
-  window.location.href = './dashboard.html'
+  window.location.href = './services.html'
 })
