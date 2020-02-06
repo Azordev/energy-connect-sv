@@ -112,3 +112,19 @@ input:checked + .slider:before {
 .radio-toolbar label:hover {
   background-color: #dfd;
 }
+
+.connect button {
+  margin: 5px auto;
+  background-color: var(--blue207);
+  color: white;
+  margin: 10px;
+}
+
+.connect span {
+  margin: 5px auto;
+  color: #656464;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-align: center;
+}
