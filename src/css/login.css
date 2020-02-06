@@ -9,17 +9,17 @@
   justify-content: center;
 }
 .h1-title-login {
-  color: #b259e3;
+  color: var(--violet279);
 }
 .input-login {
-  background-color: #c6c6c6;
+  background-color: var(--gray73);
   border: none;
   border-radius: 12px;
   padding: 0.3em 3.5em 0.3em 1em;
   margin: 0.7em 0;
 }
 #submit-button {
-  background-color: #c04de2;
+  background-color: var(--violet279);
   color: white;
   border: none;
   border-radius: 12px;
@@ -48,27 +48,27 @@ header > img {
 
 /*:::::::::INPUT placeholder::::::::::*/
 ::-webkit-input-placeholder {
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 :-ms-input-placeholder {
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }

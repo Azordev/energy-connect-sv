@@ -38,7 +38,7 @@ label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(230, 230, 230);
+  background-color: var(--gray96);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -50,7 +50,7 @@ label {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #2196f3;
+  background-color: var(--blue207);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -72,7 +72,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
-  border: 1px solid gray;
+  border: 1px solid var(--gray39);
 }
 
 .slider.round:before {
@@ -96,21 +96,21 @@ input:checked + .slider:before {
   padding: 10px 20px;
   font-family: sans-serif, Arial;
   font-size: 16px;
-  border: 2px solid #444;
+  border: 2px solid var(--gray27);
   border-radius: 4px;
 }
 /* https://markheath.net/post/customize-radio-button-css */
 .radio-toolbar input[type='radio']:checked + label {
-  background-color: rgb(187, 222, 255);
-  border-color: #2196f3;
+  background-color: var(--blue209);
+  border-color: var(--blue207);
 }
 
 .radio-toolbar input[type='radio']:focus + label {
-  border: 2px dashed #444;
+  border: 2px dashed var(--gray27);
 }
 
 .radio-toolbar label:hover {
-  background-color: #dfd;
+  background-color: var(--green120);
 }
 
 .connect button {
@@ -122,7 +122,7 @@ input:checked + .slider:before {
 
 .connect span {
   margin: 5px auto;
-  color: #656464;
+  color: var(--gray39);
   font-size: 13px;
   font-weight: bold;
   padding-left: 20px;

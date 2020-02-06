@@ -3,7 +3,7 @@
 }
 
 .titulo {
-  color: #656464;
+  color: var(--gray39);
   font-size: 13px;
   font-weight: bold;
   padding-left: 20px;
@@ -14,20 +14,20 @@
   font-size: 34px;
   margin: 5px;
   text-align: center;
-  color: #707070;
+  color: var(--gray39);
 }
 
 .datosFactura {
   font-weight: 500;
   font-size: 12px;
-  color: #a8a8a8;
+  color: var(--gray67);
   margin: 5px 15px;
 }
 
 .print-button {
-  background-color: #1fa1d2;
+  background-color: var(--blue207);
   color: white;
-  text-shadow: 0 1px 0 #0090df;
+  text-shadow: 0 1px 0 var(--blue201);
   border-radius: 30px;
 }
 
@@ -35,6 +35,6 @@
   font-weight: bold;
   font-size: 9px;
   text-align: center;
-  color: #868686;
+  color: var(--gray53);
   margin: 10px;
 }

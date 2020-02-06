@@ -21,6 +21,7 @@
 
 .header-help > img {
     width: 60px;
+    filter: invert(52%) sepia(33%) saturate(4902%) hue-rotate(184deg) brightness(97%) contrast(95%);
 }
 
 select {
@@ -28,7 +29,7 @@ select {
     -webkit-appearance: none;
     appearance: none;
     background-color: white;
-    border: 2px rgb(0, 0, 0) solid;
+    border: 2px black solid;
     border-radius: 10px;
     padding: 3px;
 }
@@ -37,13 +38,13 @@ select {
 	display: none;
 }
 .select-css:hover {
-	border-color: #888;
+	border-color: var(--gray53);
 }
 .select-css:focus {
-	border-color: #aaa;
-	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	border-color: var(--gray73);
+	box-shadow: 0 0 1px 3px var(--blue212);
 	box-shadow: 0 0 0 3px -moz-mac-focusring;
-	color: #222;
+	color: var(--dark13);
 	outline: none;
 }
 .select-css option {
