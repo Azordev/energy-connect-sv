@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
     <link rel="manifest" href="public/manifest.json">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/payment.css">
@@ -26,19 +23,19 @@
         </nav>
     </header>
 
-    <div id="payment">
-        <div class="container text-center">
-            <p class="titulo ">Pago a realizar </p>
-            <p class="cantidadFactura mt-4 mb-3 "> 50 USD </p>
+    <div class="payment" id="payment">
+        <div class="">
+            <p class="titulo">Pago a realizar </p>
+            <p class="cantidadFactura"> 50 USD </p>
         </div>
-        <div class="container ">
-            <form class="p-4">
-                <label class="labelForm mt-1"> Nombre del usuario </label>
+        <div >
+            <form class="">
+                <label class="labelForm"> Nombre del usuario </label>
                 <input type="text" id="name" name="" class="inputForm">
-                <label class="labelForm mt-3"> Numero de tarjeta </label>
+                <label class="labelForm"> Numero de tarjeta </label>
                 <input type="text" id="card" name="" class="inputForm">
 
-                <div class="row mt-2">
+                <div class="row">
                     <div class="col-6">
                         <label class="labelForm "> Fecha de expiración </label>
                         <input type="date" id="date" name="" class="inputForm">
@@ -48,7 +45,7 @@
                         <input type="number" id="code" name="" class="inputForm">
                     </div>
                 </div>
-                <input type="submit" class="button-realizar-pago mt-4" value="REALIZAR PAGO">
+                <input type="submit" class="button-realizar-pago" value="REALIZAR PAGO">
             </form>
 
         </div>

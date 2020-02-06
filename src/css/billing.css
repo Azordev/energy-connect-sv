@@ -1,33 +1,46 @@
+.billing {
+  margin: 30px;
+}
 
+.titulo {
+  color: #656464;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-align: center;
+}
 .cantidadFactura {
-    font-weight: 900;
-    font-size: 34px;
-    margin: 0;
-    color: #707070;
-  }
-  
-  .datosFactura {
-    font-weight: 500;
-    font-size: 12px;
-    color: #a8a8a8;
-    margin: 0;
-  }
-  
-  .print-button {
-    background-color: #1fa1d2;
-    font-weight: 500;
-    color: white;
-    border-radius: 28px;
-    cursor: pointer;
-    font-size: 10px;
-    padding: 5px 29px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #0090df;
-  }
-  
-  .reclamoFactura {
-    font-weight: bold;
-    font-size: 9px;
-    color: #868686;
-    margin: 0;
-  }
+  font-weight: 900;
+  font-size: 34px;
+  margin: 5px;
+  text-align: center;
+  color: #707070;
+}
+
+.datosFactura {
+  font-weight: 500;
+  font-size: 12px;
+  color: #a8a8a8;
+  margin: 5px 15px;
+}
+
+.print-button {
+  background-color: #1fa1d2;
+  font-weight: 500;
+  color: white;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px 29px;
+  text-decoration: none;
+  margin: 30px;
+  text-shadow: 0 1px 0 #0090df;
+}
+
+.reclamoFactura {
+  font-weight: bold;
+  font-size: 9px;
+  text-align: center;
+  color: #868686;
+  margin: 10px;
+}
