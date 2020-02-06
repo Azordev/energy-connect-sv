@@ -30,20 +30,8 @@
 }
 header {
   width: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15vh;
-  background: #00aae4;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-  border-radius: 0 0 85% 85% / 95%;
-  @media (min-width: 768px) {
-    border-radius: 0;
-  }
-}
-
-header > img {
-  height: 50px;
+  background: url("../assets/SVG/header-movil.svg") no-repeat;
+  background-size: contain;
 }
 
 /*:::::::::INPUT placeholder::::::::::*/
