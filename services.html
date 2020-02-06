@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
     <link rel="manifest" href="public/manifest.json">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/services.css">
@@ -31,47 +28,39 @@
         <div id="home">
             <div class="tabs" >
                 <span id="services-tabber" active>Servicios</span>
-                <span id="billing-tabber">Facturaciones</span>
+                <a href="./billing.html" id="billing-tabber">Facturaciones</a>
             </div>
             <div id="services">
-                <div class="container">
-                    <h5 class="titulo pl-3 pt-4">Renovacion</h5>
-                    <div class=" contenedor  p-4 m-2">
-                        <p class="fecha text-center">19/06/20</p>
-                        <div class="container">
-                            <div class="progress grey-progres-bar  ">
-                                <div class="progress-bar black-progres-bar " role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="20" aria-valuemax="100" style="width:40%">
-                                </div>
-                            </div>
+                <div class="bar-container">
+                    <h5 class="titulo">Renovacion</h5>
+                    <div class="contenedor">
+                        <p class="info-text">19/06/20</p>
+                        <div class="bar-container">
+                            <progress black="true" max="100" value="30"></progress>                            
                         </div>
                     </div>
 
-                    <h5 class="titulo pl-3 pt-4">Pago</h5>
-                    <div class=" contenedor  p-3 m-2">
-                        <p class="pago text-center">15 USD</p>
-                        <div class="text-center">
+                    <h5 class="titulo">Pago</h5>
+                    <div class="contenedor">
+                        <p class="pago">15 USD</p>
+                        <div class="pay-parent">
                             <a href="./payment.html" class="pay-button ">PAGAR</a>
                         </div>
                     </div>
 
-                    <h5 class="titulo pl-3 pt-4">Uso de Energia</h5>
-                    <div class=" contenedor  p-4 m-2">
-                        <p class="fecha text-center">70%</p>
-                        <div class="container">
-                            <div class="progress grey-progres-bar  ">
-                                <div class="progress-bar green-progres-bar " role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="20" aria-valuemax="100" style="width:70%">
-                                </div>
-                            </div>
+                    <h5 class="titulo">Uso de Energia</h5>
+                    <div class="contenedor">
+                        <p class="info-text">70%</p>
+                        <div class="bar-container">
+                            <progress green="true" max="100" value="70"></progress>  
                         </div>
                     </div>
 
-                    <h5 class="titulo pl-3 pt-4">Deudas</h5>
-                    <div class=" contenedor  p-4 m-2">
-                        <p class="fecha text-center">¡felicitaciones Julio!</p>
-                        <div class="container ">
-                            <p class="estadoDeuda text-center ml-5 mr-5">No posees de ninguna deuda <br> hasta la fecha
+                    <h5 class="titulo">Deudas</h5>
+                    <div class="contenedor">
+                        <p class="info-text">¡felicitaciones Julio!</p>
+                        <div class="">
+                            <p class="estadoDeuda">No posees de ninguna deuda <br> hasta la fecha
                             </p>
                         </div>
                     </div>
