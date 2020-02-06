@@ -1,0 +1,8 @@
+.button-primary {
+    font-weight: 700;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 28px;
+  text-decoration: none;
+}
