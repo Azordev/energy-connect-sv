@@ -1,0 +1,74 @@
+.body-help {
+    margin: 10px auto;
+    padding: 30px;
+    font-size: small;
+}
+
+.body-help p{
+    color: gray;
+    margin: 10px auto;
+}
+
+.header-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-help > h2 {
+    color: var(--blue207);
+}
+
+.header-help > img {
+    width: 60px;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.select-css::-ms-expand {
+	display: none;
+}
+.select-css:hover {
+	border-color: #888;
+}
+.select-css:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+
+textarea {
+    border-radius: 10px;
+    min-height: 75px;
+    resize: none;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+.send-button {
+    display: flex;
+}
+
+.send-button > input[type="submit"] {
+    background-color: var(--blue207);
+    color: white;
+    width: 70%;
+    margin: 10px auto;
+}
+
+form fieldset {
+    margin: 15px auto;
+    display: flex;
+}

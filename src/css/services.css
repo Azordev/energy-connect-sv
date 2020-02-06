@@ -57,6 +57,7 @@ progress::-webkit-progress-bar {
   background-color: #0090df;
   color: white;
   text-shadow: 0 1px 0 #0a4463;
+  border-radius: 30px;
 }
 
 .pago {

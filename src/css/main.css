@@ -21,7 +21,7 @@ header > nav {
 }
 
 nav > span {
-  color: #419aff;
+  color: var(--blue207);
   font-weight: 700;
 }
 
