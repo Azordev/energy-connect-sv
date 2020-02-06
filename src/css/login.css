@@ -1,0 +1,63 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fieldset-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.h1-title-login {
+  color: #b259e3;
+}
+.input-login {
+  background-color: #c6c6c6;
+  border: none;
+  border-radius: 12px;
+  padding: 0.3em 3.5em 0.3em 1em;
+  margin: 0.7em 0;
+}
+#submit-button {
+  background-color: #c04de2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.2em 5.3em;
+}
+.div-container {
+  margin-top: 20vh;
+}
+header {
+  width: 1;
+  background: url("../assets/SVG/header-movil.svg") no-repeat;
+  background-size: contain;
+}
+
+/*:::::::::INPUT placeholder::::::::::*/
+::-webkit-input-placeholder {
+  color: #777878;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #777878;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #777878;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+:-ms-input-placeholder {
+  color: #777878;
+  font-weight: 700;
+  font-size: 1em;
+}
+/*:::::::::FIN INPUT placeholder:::::::::*/

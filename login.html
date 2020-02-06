@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
-    <link rel="manifest" href="public/manifest.json">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico" />
+    <link rel="manifest" href="public/manifest.json" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/login.css" />
     <title>EnergyConnectSV</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./src/assets/Logo/logo.png" alt="EnergyConnectSV">
+      <img src="./src/assets/Logo/logo.png" alt="EnergyConnectSV" />
     </header>
     <main>
-        <div>
-            <form>
-                <h1>
-                    Acceso
-                </h1>
-                <fieldset>
-                    <input placeholder="INGRESA TU CODIGO" >
-                    <input placeholder="INGRESA TU PAIS" >
-                    <input placeholder="INGRESA TU NUMERO DE IDENTIDAD" >
-                </fieldset>
-                <button id="submit-button">INGRESAR</button>
-            </form>
-        </div>
+      <div class="div-container">
+        <form class="form-container">
+          <h1 class="h1-title-login">
+            ACCESO
+          </h1>
+          <fieldset class="fieldset-login">
+            <input placeholder="INGRESA TU CÓDIGO" class="input-login" />
+            <input placeholder="INGRESA TU PAÍS" class="input-login" />
+            <input
+              placeholder="INGRESA TU NUMERO DE IDENTIDAD"
+              class="input-login"
+            />
+          </fieldset>
+          <button id="submit-button">INGRESAR</button>
+        </form>
+      </div>
     </main>
     <script src="src/js/login.js"></script>
-</body>
+  </body>
 </html>
