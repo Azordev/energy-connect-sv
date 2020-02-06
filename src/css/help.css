@@ -24,6 +24,9 @@
 }
 
 select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
     background-color: white;
     border: 2px rgb(0, 0, 0) solid;
     border-radius: 10px;
@@ -63,4 +66,9 @@ textarea {
     color: white;
     width: 70%;
     margin: 10px auto;
+}
+
+form fieldset {
+    margin: 15px auto;
+    display: flex;
 }
