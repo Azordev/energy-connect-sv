@@ -27,8 +27,8 @@
         </nav>
     </header>
     <main>
-        <div id="tabs">
-            <div>
+        <div id="home">
+            <div id="tabs">
                 <span id="services-tabber" active>Servicios</span>
                 <span id="billing-tabber">Facturaciones</span>
             </div>
@@ -50,7 +50,7 @@
                     <div class=" contenedor  p-3 m-2">
                         <p class="pago text-center">15 USD</p>
                         <div class="text-center">
-                            <a href="#" class="pay-button ">PAGAR</a>
+                            <a href="./payment.html" class="pay-button ">PAGAR</a>
                         </div>
                     </div>
                     <h5 class="titulo pl-3 pt-4">Deudas</h5>
@@ -74,7 +74,7 @@
 
                         <div class="container">
                             <p class="datosFactura mt-1">Fecha de emisión: 15/05/2020 </p>
-                            <p class="datosFactura mt-2">Remitente: Julio Torres</p>
+                            <p class="datosFactura mt-2">Remitente: Julio Gauss</p>
                             <p class="datosFactura mt-2">N° Entidad: 9082745</p>
                             <p class="datosFactura mt-2">País: Brasil</p>
                             <p class="datosFactura mt-2">Empresa: Energy connect</p>
@@ -82,7 +82,7 @@
                         </div>
 
                         <div class="container  mt-4 mb-3 text-center">
-                            <p class="reclamoFactura pl-5 pr-5 mb-3 just">Cualquierconsulta o reclamos, puedes enciar un
+                            <p class="reclamoFactura pl-5 pr-5 mb-3 just">Cualquier consulta o reclamos, puedes enviar un
                                 mensaje a nuestro buzón</p>
                             <a href="#" class="print-button ">IMPRIMIR</a>
                         </div>
@@ -90,41 +90,19 @@
                 </div>
             </div>
         </div>
-        <div id="payment" hidden>
-            <div class="container text-center">
-                <p class="titulo ">Pago a realizar </p>
-                <p class="cantidadFactura mt-4 mb-3 "> 50 USD </p>
-            </div>
-
-
-            <div class="container ">
-                <form class="p-4">
-                    <label class="labelForm mt-1"> Nombre del usuario </label>
-                    <input type="text" id="name" name="" class="inputForm">
-                    <label class="labelForm mt-3"> Numero de tarjeta </label>
-                    <input type="text" id="card" name="" class="inputForm">
-
-                    <div class="row mt-2">
-                        <div class="col-6">
-                            <label class="labelForm "> Fecha de expiración </label>
-                            <input type="date" id="date" name="" class="inputForm">
-                        </div>
-                        <div class="col-6">
-                            <label class="labelForm "> Código de seguridad </label>
-                            <input type="number" id="code" name="" class="inputForm">
-                        </div>
-                    </div>
-                    <input type="submit" class="button-realizar-pago mt-4" value="REALIZAR PAGO">
-                </form>
-
-            </div>
-        </div>
     </main>
     <footer>
-        <div><img src="./src/assets/Menu/home.png" alt="Home"></div>
-        <div><img src="./src/assets/Menu/payment.png" alt="Payment"></div>
-        <div><img src="./src/assets/Menu/help.png" alt="help"></div>
-        <div><img src="./src/assets/Menu/settings.png" alt="settings"></div>
+        <div><img src="./src/assets/Menu/home.png" id="home-footer-button" alt="Home"></div>
+        <div><img src="./src/assets/Menu/payment.png" id="billing-footer-button" alt="Billing"></div>
+        <div>
+            <a href="./help.html">
+                <img src="./src/assets/Menu/help.png" id="help-footer-button" alt="help">
+            </a>
+        </div>
+        <div>
+            <a href="./settings.html">
+                <img src="./src/assets/Menu/settings.png" id="config-footer-button" alt="settings">
+            </a></div>
     </footer>
     <script src="src/js/dashboard.js"></script>
 </body>
