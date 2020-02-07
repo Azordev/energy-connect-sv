@@ -25,7 +25,7 @@ nav > span {
   font-weight: 600;
 }
 
-main{
+main {
   font-family: var(--oxygen400), sans-serif;
 }
 
@@ -48,7 +48,7 @@ footer {
   box-shadow: 10px 10px 10px -9px var(--gray67);
 }
 
-.tabs > span[active]{
+.tabs > span[active] {
   border-bottom: 2px var(--blue201) solid;
   line-height: 1;
   /* text-decoration: underline blue solid; */
