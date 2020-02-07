@@ -24,6 +24,7 @@ main{
 #submit-button {
   width: 100%;
   background-color: var(--violet279);
+  box-shadow: 0 1px 8px 1px darkgrey;
   color: white;
   border: none;
   border-radius: 15px;
