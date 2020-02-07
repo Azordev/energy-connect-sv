@@ -13,7 +13,6 @@ body {
 }
 
 header > nav {
-  margin-left: 20px;
   width: 100hw;
   display: flex;
   justify-content: space-between;
@@ -21,12 +20,17 @@ header > nav {
 }
 
 nav > span {
+  font-family: var(--openSans600), sans-serif;
   color: var(--blue207);
-  font-weight: 700;
+  font-weight: 600;
+}
+
+main{
+  font-family: var(--oxygen400), sans-serif;
 }
 
 footer {
-  background-color: rgb(245, 245, 245);
+  background-color: var(--gray96);
   grid-area: footer;
   width: 100hw;
   display: flex;
@@ -39,23 +43,23 @@ footer {
   justify-content: space-around;
   font-weight: 700;
   margin: 20px 2px;
-  -webkit-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
-  -moz-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
-  box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  -webkit-box-shadow: 10px 10px 10px -9px var(--gray67);
+  -moz-box-shadow: 10px 10px 10px -9px var(--gray67);
+  box-shadow: 10px 10px 10px -9px var(--gray67);
 }
 
 .tabs > span[active]{
-  border-bottom: 2px blue solid;
+  border-bottom: 2px var(--blue201) solid;
   line-height: 1;
   /* text-decoration: underline blue solid; */
 }
 
 .contenedor {
   border: 1px solid;
-  border-color: #beb8b8;
+  border-color: var(--gray67);
   border-radius: 15px;
   padding: 5px;
-  -webkit-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
-  -moz-box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
-  box-shadow: 10px 10px 10px -9px rgba(163, 161, 163, 1);
+  -webkit-box-shadow: 10px 10px 10px -9px var(--gray67);
+  -moz-box-shadow: 10px 10px 10px -9px var(--gray67);
+  box-shadow: 10px 10px 10px -9px var(--gray67);
 }

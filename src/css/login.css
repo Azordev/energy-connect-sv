@@ -1,29 +1,33 @@
+main{
+  font-family: var(--oxygen400), sans-serif;
+}
+
 .form-container {
-  display: flex;
-  flex-direction: column;
+  margin: 2.5em;
   align-items: center;
 }
+
 .fieldset-login {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
 }
 .h1-title-login {
-  color: #b259e3;
+  color: var(--violet279);
 }
 .input-login {
-  background-color: #c6c6c6;
+  width: 100%;
+  background-color: var(--gray73);
   border: none;
-  border-radius: 12px;
-  padding: 0.3em 3.5em 0.3em 1em;
-  margin: 0.7em 0;
+  border-radius: 15px;
+  padding: 0.3em 1em;
+  margin: 1.5em 0;
 }
 #submit-button {
-  background-color: #c04de2;
+  width: 100%;
+  background-color: var(--violet279);
   box-shadow: 0 1px 8px 1px darkgrey;
   color: white;
   border: none;
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 0.2em 5.3em;
 }
 .div-container {
@@ -31,33 +35,45 @@
 }
 header {
   width: 1;
-  background: url("../assets/SVG/header-movil.svg") no-repeat;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background: var(--blue212);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 0 0 85% 85% / 95%;
+  @media (min-width: 768px) {
+    border-radius: 0;
+  }
+}
+
+header > img {
+  height: 50px;
 }
 
 /*:::::::::INPUT placeholder::::::::::*/
 ::-webkit-input-placeholder {
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
 
 :-ms-input-placeholder {
-  color: #777878;
+  color: var(--gray39);
   font-weight: 700;
   font-size: 1em;
 }
