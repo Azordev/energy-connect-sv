@@ -13,7 +13,6 @@ body {
 }
 
 header > nav {
-  margin-left: 20px;
   width: 100hw;
   display: flex;
   justify-content: space-between;
@@ -24,6 +23,10 @@ nav > span {
   font-family: var(--openSans600), sans-serif;
   color: var(--blue207);
   font-weight: 600;
+}
+
+main{
+  font-family: var(--oxygen400), sans-serif;
 }
 
 footer {

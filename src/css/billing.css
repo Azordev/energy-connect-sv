@@ -1,7 +1,3 @@
-.billing {
-  margin: 30px;
-}
-
 .titulo {
   color: var(--gray39);
   font-size: 13px;
@@ -36,5 +32,4 @@
   font-size: 9px;
   text-align: center;
   color: var(--gray53);
-  margin: 10px;
 }

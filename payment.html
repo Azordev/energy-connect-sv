@@ -8,6 +8,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="public/favicon.ico">
     <link rel="manifest" href="public/manifest.json">
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/components.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/payment.css">
     <title>EnergyConnectSV</title>
@@ -16,14 +18,14 @@
     <header>
         <h1 hidden>Welcome to Energy Connect SV!</h1>
         <nav class="">
-            <span>Hola, Julio</span>
+            <span class="m-20">Hola, Julio</span>
             <a href="./profile.html">
                 <img src="./src/assets/Menu/user.png" alt="EnergyConnectSV">
             </a>
         </nav>
     </header>
 
-    <div class="payment" id="payment">
+    <div class="m-20 payment" id="payment">
         <div class="">
             <p class="titulo">Pago a realizar </p>
             <p class="cantidadFactura"> 50 USD </p>
@@ -45,7 +47,7 @@
                         <input type="number" id="code" name="" class="inputForm">
                     </div>
                 </div>
-                <input type="submit" class="button-realizar-pago" value="REALIZAR PAGO">
+                <input type="submit" class="button-realizar-pago button-primary" value="REALIZAR PAGO">
             </form>
 
         </div>

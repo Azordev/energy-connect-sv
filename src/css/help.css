@@ -52,6 +52,7 @@ select {
 }
 
 textarea {
+    padding: 5px;
     border-radius: 10px;
     min-height: 75px;
     resize: none;
@@ -70,6 +71,5 @@ textarea {
 }
 
 form fieldset {
-    margin: 15px auto;
     display: flex;
 }
