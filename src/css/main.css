@@ -25,14 +25,18 @@ nav > span {
   font-weight: 600;
 }
 
-main{
+main {
   font-family: var(--oxygen400), sans-serif;
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: var(--gray96);
   grid-area: footer;
-  width: 100hw;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,7 +52,7 @@ footer {
   box-shadow: 10px 10px 10px -9px var(--gray67);
 }
 
-.tabs > span[active]{
+.tabs > span[active] {
   border-bottom: 2px var(--blue201) solid;
   line-height: 1;
   /* text-decoration: underline blue solid; */

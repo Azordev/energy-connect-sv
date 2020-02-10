@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Oxygen&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Oxygen&display=swap');
 
 :root {
   --violet279: #bf5af5;
@@ -22,6 +22,6 @@
   --green120: #dfd;
   --green84: #89cd23;
 
-  --openSans600: "Open Sans";
-  --oxygen400: "Oxygen";
+  --openSans600: 'Open Sans';
+  --oxygen400: 'Oxygen';
 }
