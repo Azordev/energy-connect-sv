@@ -31,9 +31,9 @@ main {
 
 footer {
   position: fixed;
-bottom: 0;
-left:0;
-right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: var(--gray96);
   grid-area: footer;
   width: 100vw;
